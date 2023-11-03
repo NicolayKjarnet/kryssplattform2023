@@ -17,16 +17,16 @@ const HomeRoutes: React.FC = () => {
         tabBarActiveTintColor: "#fff",
         tabBarInactiveTintColor: "#ff0",
         tabBarLabelStyle: {
-          marginBottom: 5,
+          marginBottom: -5,
         },
         tabBarStyle: [
           {
             backgroundColor: Colors.brandBackground,
             borderTopColor: "#000",
-            borderTopLeftRadius: 32,
-            borderTopRightRadius: 32,
+            borderTopLeftRadius: 16,
+            borderTopRightRadius: 16,
             padding: 10,
-            height: 65,
+            height: 80,
             position: "absolute",
           },
         ],
